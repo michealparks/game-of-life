@@ -1,0 +1,19 @@
+{
+  "name": "game-of-life",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite --host",
+    "build": "vite build",
+    "check": "tsc",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "three-debug": "^0.0.19",
+    "three-kit": "github:michealparks/three-kit",
+    "vite": "^3.1.7"
+  }
+}
