@@ -5,6 +5,7 @@
   "scripts": {
     "start": "vite --host",
     "build": "vite build",
+    "deploy": "vite build --base=/game-of-life/",
     "check": "tsc",
     "preview": "vite preview"
   },
