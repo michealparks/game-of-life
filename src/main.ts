@@ -150,5 +150,3 @@ update(() => {
   cubes.instanceColor!.needsUpdate = true
   cubes.instanceMatrix.needsUpdate = true
 })
-
-document.body.append(renderer.domElement)
